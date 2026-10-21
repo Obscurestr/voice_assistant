@@ -1,0 +1,6 @@
+prompt,intent,predicted,confidence
+Give me a random piece of trivia about animals,facts,games_trivia,0.6446643991305806
+"I'm bored, let's play something",games_trivia,play_music,0.6834582461067543
+How many people live in Tokyo?,general_qa,unit_conversion,0.2629771144851122
+How's it going?,personality,weather,0.8529999161789321
+Is the road to the office busy?,traffic,directions,0.7327251638317989

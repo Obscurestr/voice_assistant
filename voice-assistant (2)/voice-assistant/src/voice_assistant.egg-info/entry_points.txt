@@ -1,0 +1,2 @@
+[console_scripts]
+va = voice_assistant.cli:main

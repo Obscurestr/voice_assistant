@@ -1,0 +1,91 @@
+prompt,intent
+Could you get me up at half past six tomorrow?,alarm
+I need an alarm at 7 pm,alarm
+Please make sure I wake up at 5:45,alarm
+what's 15 times 3,calculator
+How much is 250 divided by 10?,calculator
+Can you add 42 and 58 for me,calculator
+Anything scheduled for this afternoon?,calendar
+Am I busy on Friday?,calendar
+What appointments do I have,calendar
+What's the time right now?,date_time
+Which day of the week is it?,date_time
+Do you know today's date,date_time
+Is the bedroom fan still running?,device_status
+Did I leave the lights on?,device_status
+What's the state of my smart devices,device_status
+What is the definition of nostalgia?,dictionary
+What does the word pragmatic mean,dictionary
+Give me the meaning of resilient,dictionary
+How do I get to the train station?,directions
+Show me the way to the nearest pharmacy,directions
+Navigate me to the city center,directions
+Teach me something I don't know,facts
+Give me a random piece of trivia about animals,facts
+Share an interesting fact with me,facts
+"I'm bored, let's play something",games_trivia
+Quiz me on geography,games_trivia
+Can you give me a riddle?,games_trivia
+Who wrote Romeo and Juliet?,general_qa
+How many people live in Tokyo?,general_qa
+What is the tallest building in the world?,general_qa
+I could use a good laugh,jokes_fun
+Do you know a funny one?,jokes_fun
+Cheer me up with a joke,jokes_fun
+Do you remember what I told you?,memory
+What have you saved about me,memory
+Tell me what you know about me,memory
+Suggest a good film for tonight,movies
+What are the best movies right now?,movies
+Anything good to watch?,movies
+Give me today's headlines,news
+What's happening in the world?,news
+Any breaking news?,news
+Take me to YouTube,open_website
+Pull up GitHub please,open_website
+Open the Wikipedia website,open_website
+How's it going?,personality
+Who created you?,personality
+Are you a human?,personality
+Put on some relaxing music,play_music
+I want to hear a song by Queen,play_music
+Play something I can dance to,play_music
+Turn on a radio station,play_radio
+Put on the local FM station,play_radio
+I want to listen to the radio,play_radio
+Continue my audiobook from where I stopped,podcast_audiobook
+Play the newest episode of my podcast,podcast_audiobook
+Start a podcast about history,podcast_audiobook
+Don't let me forget to pay the rent,reminder
+Remind me to water the plants at 6 pm,reminder
+Set a reminder to email Ana,reminder
+Good morning assistant,routine
+I'm heading out now,routine
+Start my bedtime routine,routine
+Count down 15 minutes,set_timer
+Start a three minute timer,set_timer
+Timer for half an hour please,set_timer
+I need to buy apples,shopping_list
+Put toothpaste on my grocery list,shopping_list
+Read me my shopping list,shopping_list
+Switch the living room lights off,smart_home
+Turn the heater on in the bedroom,smart_home
+Make the lights brighter,smart_home
+Add finish the report to my tasks,todo_task
+What tasks do I still have to do?,todo_task
+Put call the dentist on my to do list,todo_task
+Is the road to the office busy?,traffic
+How bad is traffic right now?,traffic
+Will I hit traffic on the way to work?,traffic
+How would I say good night in Serbian?,translation
+Translate where is the station into Spanish,translation
+What's the French word for apple?,translation
+How many miles is 10 kilometers?,unit_conversion
+Convert 30 celsius to fahrenheit,unit_conversion
+What is 5 kg in pounds?,unit_conversion
+Do I need an umbrella today?,weather
+What's the forecast for Belgrade?,weather
+How hot is it outside?,weather
+Can you turn my grocery list into a Word file?,shopping_list
+"Make me a shopping list doc with pasta, tomatoes and basil",shopping_list
+I want my shopping list as a document so I can print it,shopping_list

@@ -1,0 +1,1131 @@
+prompt,intent
+clear my shopping list 0,shopping_list
+play rock music 1,play_music
+joke please 2,jokes_fun
+random fact 3,facts
+tell me the news 4,news
+traffic to work 5,traffic
+play a podcast 6,podcast_audiobook
+set a 1 hour timer 7,set_timer
+make me laugh 8,jokes_fun
+how are you 9,personality
+is the heater running 10,device_status
+any events tomorrow 11,calendar
+news today 12,news
+remind me to call mom 13,reminder
+spell necessary 14,dictionary
+dim the lights 15,smart_home
+mark task as done 16,todo_task
+did you know 17,facts
+play music 18,play_music
+open youtube 19,open_website
+countdown 30 seconds 20,set_timer
+play the radio 21,play_radio
+good night 22,routine
+play a true crime podcast 23,podcast_audiobook
+remind me to call mom 24,reminder
+what is the capital of japan 25,general_qa
+define serendipity 26,dictionary
+who invented the telephone 27,general_qa
+check my calendar 28,calendar
+add bread to the list 29,shopping_list
+is it cold outside 30,weather
+dim the lights 31,smart_home
+what's the date 32,date_time
+play radio station 33,play_radio
+weather in london 34,weather
+what is the capital of japan 35,general_qa
+share a fact 36,facts
+tell me the news 37,news
+directions home 38,directions
+convert 2 liters to gallons 39,unit_conversion
+trivia question 40,games_trivia
+show my tasks 41,todo_task
+are you a robot 42,personality
+do i have meetings today 43,calendar
+calculate 12 times 4 44,calculator
+what's on my shopping list 45,shopping_list
+new to do 46,todo_task
+when was einstein born 47,general_qa
+convert 5 km to miles 48,unit_conversion
+define serendipity 49,dictionary
+what's the weather 50,weather
+alarm for tomorrow morning 51,alarm
+good morning 52,routine
+set a reminder 53,reminder
+what is today's date 54,date_time
+convert 2 liters to gallons 55,unit_conversion
+set alarm for 6 am 56,alarm
+tell me the news 57,news
+timer for 20 minutes 58,set_timer
+what does ephemeral mean 59,dictionary
+meaning of ubiquitous 60,dictionary
+top stories 61,news
+define serendipity 62,dictionary
+traffic to work 63,traffic
+trivia question 64,games_trivia
+when was einstein born 65,general_qa
+what's the news 66,news
+play radio station 67,play_radio
+who invented the telephone 68,general_qa
+what should i watch 69,movies
+how do i get to the station 70,directions
+what's on my calendar 71,calendar
+give me a quiz 72,games_trivia
+run my evening routine 73,routine
+what is the capital of japan 74,general_qa
+who are you 75,personality
+play a podcast 76,podcast_audiobook
+how far is the moon 77,general_qa
+start a timer 78,set_timer
+launch wikipedia 79,open_website
+good night 80,routine
+what movies are playing 81,movies
+how do you say thank you in french 82,translation
+make me laugh 83,jokes_fun
+countdown 30 seconds 84,set_timer
+good morning 85,routine
+when was einstein born 86,general_qa
+share a fact 87,facts
+random fact 88,facts
+play my playlist 89,play_music
+what's on my shopping list 90,shopping_list
+play the radio 91,play_radio
+meaning of ubiquitous 92,dictionary
+do i have meetings today 93,calendar
+weather in london 94,weather
+add 7 and 9 95,calculator
+10 pounds to kg 96,unit_conversion
+what does ephemeral mean 97,dictionary
+show my schedule 98,calendar
+will it rain tomorrow 99,weather
+ask me a riddle 100,games_trivia
+top stories 101,news
+synonym for happy 102,dictionary
+start a timer 103,set_timer
+how long is my commute 104,traffic
+new to do 105,todo_task
+countdown 30 seconds 106,set_timer
+how's the traffic 107,traffic
+run my evening routine 108,routine
+how's the traffic 109,traffic
+tell me the time 110,date_time
+resume my audiobook 111,podcast_audiobook
+what is my agenda 112,calendar
+remind me at 5 pm to stretch 113,reminder
+countdown 30 seconds 114,set_timer
+play jazz radio 115,play_radio
+what should i watch 116,movies
+what do you remember about me 117,memory
+make me laugh 118,jokes_fun
+shopping list 119,shopping_list
+let's play a game 120,games_trivia
+what does ephemeral mean 121,dictionary
+what's on my calendar 122,calendar
+are you a robot 123,personality
+play some jazz 124,play_music
+how's the traffic 125,traffic
+what is my agenda 126,calendar
+10 pounds to kg 127,unit_conversion
+popular films 128,movies
+tell me the news 129,news
+set alarm for 6 am 130,alarm
+route to the hospital 131,directions
+play trivia 132,games_trivia
+what is today's date 133,date_time
+add bread to the list 134,shopping_list
+open youtube 135,open_website
+what movies are playing 136,movies
+synonym for happy 137,dictionary
+add milk to my shopping list 138,shopping_list
+good night 139,routine
+convert 5 km to miles 140,unit_conversion
+remind me to buy milk 141,reminder
+turn off the heater 142,smart_home
+are the lights on 143,device_status
+translate this 144,translation
+what time is it 145,date_time
+which devices are on 146,device_status
+status of my devices 147,device_status
+take me to the mall 148,directions
+tell me a fact 149,facts
+how do you say thank you in french 150,translation
+give me a fun fact 151,facts
+when was einstein born 152,general_qa
+morning alarm 153,alarm
+what is 5 plus 3 154,calculator
+let's play a game 155,games_trivia
+what is my agenda 156,calendar
+who made you 157,personality
+new to do 158,todo_task
+add a task 159,todo_task
+how tall is mount everest 160,general_qa
+weather today 161,weather
+recommend a movie 162,movies
+latest headlines 163,news
+how far is the moon 164,general_qa
+what's the weather 165,weather
+open youtube 166,open_website
+how do you say thank you in french 167,translation
+show my tasks 168,todo_task
+when was einstein born 169,general_qa
+set an alarm for 8 30 170,alarm
+share a fact 171,facts
+play music 172,play_music
+add homework to my to do list 173,todo_task
+check my calendar 174,calendar
+start the radio 175,play_radio
+show my tasks 176,todo_task
+what does ephemeral mean 177,dictionary
+what's the weather 178,weather
+meaning of ubiquitous 179,dictionary
+remind me to call mom 180,reminder
+set a reminder 181,reminder
+let's play a game 182,games_trivia
+start a game 183,games_trivia
+show my schedule 184,calendar
+do you have feelings 185,personality
+what is today's date 186,date_time
+morning alarm 187,alarm
+tell me a fact 188,facts
+do i have meetings today 189,calendar
+remind me to call mom 190,reminder
+will it rain tomorrow 191,weather
+run my evening routine 192,routine
+play a song 193,play_music
+open youtube 194,open_website
+what day is it today 195,date_time
+do i have meetings today 196,calendar
+what movies are playing 197,movies
+play rock music 198,play_music
+how many grams in an ounce 199,unit_conversion
+tell me a joke 200,jokes_fun
+what's on my to do list 201,todo_task
+tell me the time 202,date_time
+play the latest episode 203,podcast_audiobook
+remind me to call mom 204,reminder
+remind me to call mom 205,reminder
+tell me the time 206,date_time
+what's 100 divided by 5 207,calculator
+how are you 208,personality
+are the lights on 209,device_status
+play the radio 210,play_radio
+tune in to bbc radio 211,play_radio
+tell a funny joke 212,jokes_fun
+remind me to buy milk 213,reminder
+how do you say thank you in french 214,translation
+listen to fm radio 215,play_radio
+show my schedule 216,calendar
+how far is the moon 217,general_qa
+how's the traffic 218,traffic
+who is the president of france 219,general_qa
+do you have feelings 220,personality
+what did i tell you 221,memory
+who made you 222,personality
+do you have feelings 223,personality
+what's on my to do list 224,todo_task
+set an alarm 225,alarm
+launch wikipedia 226,open_website
+read my audiobook 227,podcast_audiobook
+run my evening routine 228,routine
+start the radio 229,play_radio
+what's on my calendar 230,calendar
+what is 20 minus 6 231,calculator
+weather today 232,weather
+status of my devices 233,device_status
+let's play a game 234,games_trivia
+random fact 235,facts
+wake me at 7 236,alarm
+start a timer 237,set_timer
+add bread to the list 238,shopping_list
+next podcast episode 239,podcast_audiobook
+add bread to the list 240,shopping_list
+i'm leaving 241,routine
+directions home 242,directions
+turn off the heater 243,smart_home
+remind me to call mom 244,reminder
+remind me to call mom 245,reminder
+open my email 246,open_website
+convert 100 fahrenheit to celsius 247,unit_conversion
+will it rain tomorrow 248,weather
+definition of algorithm 249,dictionary
+next podcast episode 250,podcast_audiobook
+resume my audiobook 251,podcast_audiobook
+what time is it 252,date_time
+play a true crime podcast 253,podcast_audiobook
+say something funny 254,jokes_fun
+joke please 255,jokes_fun
+play a podcast 256,podcast_audiobook
+play music 257,play_music
+turn on the lights 258,smart_home
+navigate to downtown 259,directions
+remind me to buy milk 260,reminder
+read my audiobook 261,podcast_audiobook
+what is the capital of japan 262,general_qa
+tell me a joke 263,jokes_fun
+give me a fun fact 264,facts
+status of my devices 265,device_status
+what is today's date 266,date_time
+traffic on the highway 267,traffic
+tell me something interesting 268,facts
+what is 20 minus 6 269,calculator
+status of my devices 270,device_status
+play jazz radio 271,play_radio
+turn on the lights 272,smart_home
+do you have feelings 273,personality
+are you a robot 274,personality
+spell necessary 275,dictionary
+traffic report 276,traffic
+are the lights on 277,device_status
+what's the date 278,date_time
+share a fact 279,facts
+add bread to the list 280,shopping_list
+calculate 12 times 4 281,calculator
+timer for 20 minutes 282,set_timer
+add bread to the list 283,shopping_list
+what's on my calendar 284,calendar
+what's the weather 285,weather
+tell me a fact 286,facts
+say something funny 287,jokes_fun
+start a game 288,games_trivia
+listen to fm radio 289,play_radio
+play a podcast 290,podcast_audiobook
+how many grams in an ounce 291,unit_conversion
+meaning of ubiquitous 292,dictionary
+are you a robot 293,personality
+wake me at 7 294,alarm
+next podcast episode 295,podcast_audiobook
+who is the president of france 296,general_qa
+start a timer 297,set_timer
+did you know 298,facts
+start a timer 299,set_timer
+open google 300,open_website
+are the lights on 301,device_status
+add 7 and 9 302,calculator
+multiply 3 by 8 303,calculator
+10 pounds to kg 304,unit_conversion
+are the lights on 305,device_status
+open youtube 306,open_website
+what should i watch 307,movies
+is it cold outside 308,weather
+mark task as done 309,todo_task
+what's the weather 310,weather
+when was einstein born 311,general_qa
+did you know 312,facts
+what time is it 313,date_time
+what's the news 314,news
+say something funny 315,jokes_fun
+what's on my shopping list 316,shopping_list
+play music 317,play_music
+tell a funny joke 318,jokes_fun
+do i have meetings today 319,calendar
+current time please 320,date_time
+what is my agenda 321,calendar
+clear my shopping list 322,shopping_list
+are you a robot 323,personality
+play a song 324,play_music
+switch on the fan 325,smart_home
+what movies are playing 326,movies
+how's the traffic 327,traffic
+temperature in paris 328,weather
+is the heater running 329,device_status
+are the lights on 330,device_status
+sports news 331,news
+navigate to downtown 332,directions
+traffic report 333,traffic
+share a fact 334,facts
+how many grams in an ounce 335,unit_conversion
+definition of algorithm 336,dictionary
+i'm home 337,routine
+i'm home 338,routine
+what's on my calendar 339,calendar
+say goodbye in japanese 340,translation
+synonym for happy 341,dictionary
+who made you 342,personality
+definition of algorithm 343,dictionary
+next podcast episode 344,podcast_audiobook
+show my tasks 345,todo_task
+what does ephemeral mean 346,dictionary
+sports news 347,news
+top stories 348,news
+latest headlines 349,news
+new to do 350,todo_task
+tell a funny joke 351,jokes_fun
+turn off the tv 352,smart_home
+what is 5 plus 3 353,calculator
+convert 2 liters to gallons 354,unit_conversion
+define serendipity 355,dictionary
+are the lights on 356,device_status
+what's on my to do list 357,todo_task
+set an alarm for 8 30 358,alarm
+who is the president of france 359,general_qa
+do you remember my name 360,memory
+listen to fm radio 361,play_radio
+traffic on the highway 362,traffic
+random fact 363,facts
+start the radio 364,play_radio
+translate good morning to german 365,translation
+is the tv on 366,device_status
+navigate to downtown 367,directions
+10 pounds to kg 368,unit_conversion
+read my audiobook 369,podcast_audiobook
+set a 1 hour timer 370,set_timer
+give me a fun fact 371,facts
+open reddit 372,open_website
+navigate to downtown 373,directions
+will it rain tomorrow 374,weather
+start a timer 375,set_timer
+convert 2 liters to gallons 376,unit_conversion
+what's the news 377,news
+play the beatles 378,play_music
+how do you say thank you in french 379,translation
+switch on the fan 380,smart_home
+tell me the news 381,news
+definition of algorithm 382,dictionary
+what movies are playing 383,movies
+are the lights on 384,device_status
+start my morning routine 385,routine
+know any jokes 386,jokes_fun
+define serendipity 387,dictionary
+set a reminder 388,reminder
+play a podcast 389,podcast_audiobook
+meaning of ubiquitous 390,dictionary
+how do i get to the station 391,directions
+any events tomorrow 392,calendar
+open google 393,open_website
+open google 394,open_website
+say something funny 395,jokes_fun
+latest headlines 396,news
+start the radio 397,play_radio
+top movies 398,movies
+say something funny 399,jokes_fun
+give me a fun fact 400,facts
+synonym for happy 401,dictionary
+synonym for happy 402,dictionary
+dim the lights 403,smart_home
+say something funny 404,jokes_fun
+resume my audiobook 405,podcast_audiobook
+play rock music 406,play_music
+let's play a game 407,games_trivia
+what movies are playing 408,movies
+go to github 409,open_website
+switch on the fan 410,smart_home
+play a song 411,play_music
+share a fact 412,facts
+multiply 3 by 8 413,calculator
+how far is the moon 414,general_qa
+read my audiobook 415,podcast_audiobook
+open google 416,open_website
+how many feet in a meter 417,unit_conversion
+open my email 418,open_website
+is the heater running 419,device_status
+what movies are playing 420,movies
+countdown 30 seconds 421,set_timer
+what is 5 plus 3 422,calculator
+show my schedule 423,calendar
+tell me a joke 424,jokes_fun
+how do you say thank you in french 425,translation
+start my morning routine 426,routine
+launch wikipedia 427,open_website
+timer for 20 minutes 428,set_timer
+start my morning routine 429,routine
+what did i tell you 430,memory
+play a podcast 431,podcast_audiobook
+how tall is mount everest 432,general_qa
+traffic report 433,traffic
+how do you say thank you in french 434,translation
+what is 20 minus 6 435,calculator
+share a fact 436,facts
+open reddit 437,open_website
+what does ephemeral mean 438,dictionary
+definition of algorithm 439,dictionary
+turn off the heater 440,smart_home
+play radio station 441,play_radio
+what's the weather 442,weather
+shopping list 443,shopping_list
+what is my agenda 444,calendar
+popular films 445,movies
+reminder for the meeting 446,reminder
+traffic on the highway 447,traffic
+current time please 448,date_time
+do i have meetings today 449,calendar
+shopping list 450,shopping_list
+synonym for happy 451,dictionary
+ask me a riddle 452,games_trivia
+listen to fm radio 453,play_radio
+play the radio 454,play_radio
+what's on my to do list 455,todo_task
+play a podcast 456,podcast_audiobook
+mark task as done 457,todo_task
+what do you remember about me 458,memory
+what day is it today 459,date_time
+start my morning routine 460,routine
+start a game 461,games_trivia
+set a reminder 462,reminder
+lights on in the kitchen 463,smart_home
+what is my agenda 464,calendar
+start my morning routine 465,routine
+add 7 and 9 466,calculator
+let's play a game 467,games_trivia
+tell me a fact 468,facts
+convert 2 liters to gallons 469,unit_conversion
+open my email 470,open_website
+weather today 471,weather
+set an alarm for 8 30 472,alarm
+is it cold outside 473,weather
+what day is it today 474,date_time
+convert 100 fahrenheit to celsius 475,unit_conversion
+play trivia 476,games_trivia
+top movies 477,movies
+what movies are playing 478,movies
+what's 100 divided by 5 479,calculator
+read my audiobook 480,podcast_audiobook
+convert 5 km to miles 481,unit_conversion
+what's 100 divided by 5 482,calculator
+is the heater running 483,device_status
+are the lights on 484,device_status
+mark task as done 485,todo_task
+countdown 30 seconds 486,set_timer
+make me laugh 487,jokes_fun
+what is 20 minus 6 488,calculator
+next podcast episode 489,podcast_audiobook
+start a game 490,games_trivia
+wake me at 7 491,alarm
+tell me the time 492,date_time
+turn off the heater 493,smart_home
+news today 494,news
+make me laugh 495,jokes_fun
+10 pounds to kg 496,unit_conversion
+meaning of ubiquitous 497,dictionary
+remind me to buy milk 498,reminder
+directions home 499,directions
+tell me the news 500,news
+tell a funny joke 501,jokes_fun
+add bread to the list 502,shopping_list
+lights on in the kitchen 503,smart_home
+directions to the airport 504,directions
+play my playlist 505,play_music
+listen to fm radio 506,play_radio
+who is the president of france 507,general_qa
+random fact 508,facts
+what is cat in italian 509,translation
+switch on the fan 510,smart_home
+good morning 511,routine
+shopping list 512,shopping_list
+add a reminder 513,reminder
+shopping list 514,shopping_list
+timer for 5 minutes 515,set_timer
+play trivia 516,games_trivia
+alarm for tomorrow morning 517,alarm
+what's the date 518,date_time
+any events tomorrow 519,calendar
+go to github 520,open_website
+multiply 3 by 8 521,calculator
+who made you 522,personality
+play a song 523,play_music
+switch on the fan 524,smart_home
+are you a robot 525,personality
+say goodbye in japanese 526,translation
+is the tv on 527,device_status
+what is cat in italian 528,translation
+popular films 529,movies
+what is cat in italian 530,translation
+navigate to downtown 531,directions
+play some jazz 532,play_music
+traffic on the highway 533,traffic
+multiply 3 by 8 534,calculator
+switch on the fan 535,smart_home
+is there traffic 536,traffic
+add bread to the list 537,shopping_list
+put eggs on the shopping list 538,shopping_list
+translate this 539,translation
+start the radio 540,play_radio
+play the latest episode 541,podcast_audiobook
+add homework to my to do list 542,todo_task
+know any jokes 543,jokes_fun
+calculate 12 times 4 544,calculator
+new to do 545,todo_task
+set a timer for 10 minutes 546,set_timer
+play the latest episode 547,podcast_audiobook
+what is cat in italian 548,translation
+is the tv on 549,device_status
+set an alarm for 8 30 550,alarm
+traffic on the highway 551,traffic
+mark task as done 552,todo_task
+tell me the time 553,date_time
+clear my shopping list 554,shopping_list
+how are you 555,personality
+when was einstein born 556,general_qa
+ask me a riddle 557,games_trivia
+recommend a movie 558,movies
+who is the president of france 559,general_qa
+put eggs on the shopping list 560,shopping_list
+what's the weather 561,weather
+turn on the lights 562,smart_home
+set an alarm for 8 30 563,alarm
+traffic on the highway 564,traffic
+open my email 565,open_website
+good night 566,routine
+remind me to buy milk 567,reminder
+multiply 3 by 8 568,calculator
+movie suggestions 569,movies
+play music 570,play_music
+give me a quiz 571,games_trivia
+is the tv on 572,device_status
+weather today 573,weather
+add bread to the list 574,shopping_list
+navigate to downtown 575,directions
+are you a robot 576,personality
+is the heater running 577,device_status
+calculate 12 times 4 578,calculator
+ask me a riddle 579,games_trivia
+set an alarm for 8 30 580,alarm
+sports news 581,news
+mark task as done 582,todo_task
+is it cold outside 583,weather
+good morning 584,routine
+set a 1 hour timer 585,set_timer
+add a task 586,todo_task
+tell me the time 587,date_time
+movie suggestions 588,movies
+tell me the news 589,news
+is there traffic 590,traffic
+directions to the airport 591,directions
+clear my shopping list 592,shopping_list
+navigate to downtown 593,directions
+definition of algorithm 594,dictionary
+what is cat in italian 595,translation
+switch on the fan 596,smart_home
+do you have feelings 597,personality
+show my schedule 598,calendar
+show my schedule 599,calendar
+who made you 600,personality
+start my morning routine 601,routine
+are the lights on 602,device_status
+who invented the telephone 603,general_qa
+translate hello to spanish 604,translation
+how do you say thank you in french 605,translation
+open google 606,open_website
+add 7 and 9 607,calculator
+traffic on the highway 608,traffic
+what is today's date 609,date_time
+play rock music 610,play_music
+i'm home 611,routine
+what is 20 minus 6 612,calculator
+next podcast episode 613,podcast_audiobook
+did you know 614,facts
+remind me to buy milk 615,reminder
+switch on the fan 616,smart_home
+are you a robot 617,personality
+what's the weather 618,weather
+say something funny 619,jokes_fun
+what's on my shopping list 620,shopping_list
+remind me at 5 pm to stretch 621,reminder
+start a timer 622,set_timer
+play my playlist 623,play_music
+add a task 624,todo_task
+translate hello to spanish 625,translation
+set a reminder 626,reminder
+top movies 627,movies
+launch wikipedia 628,open_website
+check my calendar 629,calendar
+traffic on the highway 630,traffic
+add homework to my to do list 631,todo_task
+wake me up 632,alarm
+next podcast episode 633,podcast_audiobook
+start a game 634,games_trivia
+i'm home 635,routine
+what is my agenda 636,calendar
+turn on the lights 637,smart_home
+what day is it today 638,date_time
+convert 2 liters to gallons 639,unit_conversion
+what should i watch 640,movies
+play the radio 641,play_radio
+morning alarm 642,alarm
+start the radio 643,play_radio
+set a reminder 644,reminder
+convert 2 liters to gallons 645,unit_conversion
+current time please 646,date_time
+set a reminder 647,reminder
+when was einstein born 648,general_qa
+what should i watch 649,movies
+how are you 650,personality
+timer for 20 minutes 651,set_timer
+what is the capital of japan 652,general_qa
+start my morning routine 653,routine
+start the radio 654,play_radio
+10 pounds to kg 655,unit_conversion
+start my morning routine 656,routine
+tell me a joke 657,jokes_fun
+what does ephemeral mean 658,dictionary
+good night 659,routine
+morning alarm 660,alarm
+countdown 30 seconds 661,set_timer
+morning alarm 662,alarm
+weather today 663,weather
+what is my agenda 664,calendar
+ask me a riddle 665,games_trivia
+play rock music 666,play_music
+temperature in paris 667,weather
+what did i tell you 668,memory
+add milk to my shopping list 669,shopping_list
+route to the hospital 670,directions
+how many feet in a meter 671,unit_conversion
+play music 672,play_music
+know any jokes 673,jokes_fun
+what's 100 divided by 5 674,calculator
+is there traffic 675,traffic
+is the heater running 676,device_status
+put eggs on the shopping list 677,shopping_list
+show my schedule 678,calendar
+weather today 679,weather
+recommend a movie 680,movies
+how many feet in a meter 681,unit_conversion
+movie suggestions 682,movies
+do you have feelings 683,personality
+what is 20 minus 6 684,calculator
+joke please 685,jokes_fun
+which devices are on 686,device_status
+translate this 687,translation
+new to do 688,todo_task
+who made you 689,personality
+traffic report 690,traffic
+set an alarm 691,alarm
+what's on my shopping list 692,shopping_list
+show my tasks 693,todo_task
+what is cat in italian 694,translation
+play a song 695,play_music
+device status 696,device_status
+good night 697,routine
+status of my devices 698,device_status
+i'm leaving 699,routine
+what is the capital of japan 700,general_qa
+wake me at 7 701,alarm
+define serendipity 702,dictionary
+play the beatles 703,play_music
+play jazz radio 704,play_radio
+say something funny 705,jokes_fun
+how are you 706,personality
+add bread to the list 707,shopping_list
+movie suggestions 708,movies
+what's the weather 709,weather
+remind me to call mom 710,reminder
+do you have feelings 711,personality
+is it cold outside 712,weather
+start my morning routine 713,routine
+tell me the news 714,news
+wake me at 7 715,alarm
+what's on my to do list 716,todo_task
+do you remember my name 717,memory
+are the lights on 718,device_status
+translate hello to spanish 719,translation
+start a game 720,games_trivia
+open google 721,open_website
+translate this 722,translation
+go to github 723,open_website
+route to the hospital 724,directions
+random fact 725,facts
+tell me a joke 726,jokes_fun
+convert 100 fahrenheit to celsius 727,unit_conversion
+give me a fun fact 728,facts
+timer for 5 minutes 729,set_timer
+take me to the mall 730,directions
+mark task as done 731,todo_task
+how's the traffic 732,traffic
+play music 733,play_music
+open reddit 734,open_website
+play the beatles 735,play_music
+sports news 736,news
+what's on my calendar 737,calendar
+what is your name 738,personality
+is the tv on 739,device_status
+convert 100 fahrenheit to celsius 740,unit_conversion
+start the radio 741,play_radio
+calculate 12 times 4 742,calculator
+status of my devices 743,device_status
+open youtube 744,open_website
+which devices are on 745,device_status
+tell me something interesting 746,facts
+say something funny 747,jokes_fun
+go to github 748,open_website
+calculate 12 times 4 749,calculator
+are the lights on 750,device_status
+will it rain tomorrow 751,weather
+how do i get to the station 752,directions
+tune in to bbc radio 753,play_radio
+listen to fm radio 754,play_radio
+how many grams in an ounce 755,unit_conversion
+set a timer for 10 minutes 756,set_timer
+good morning 757,routine
+trivia question 758,games_trivia
+what is today's date 759,date_time
+popular films 760,movies
+multiply 3 by 8 761,calculator
+convert 100 fahrenheit to celsius 762,unit_conversion
+current time please 763,date_time
+set alarm for 6 am 764,alarm
+is the tv on 765,device_status
+what did i tell you 766,memory
+play a song 767,play_music
+timer for 20 minutes 768,set_timer
+traffic to work 769,traffic
+play trivia 770,games_trivia
+give me a fun fact 771,facts
+what's on my shopping list 772,shopping_list
+how long is my commute 773,traffic
+who is the president of france 774,general_qa
+traffic on the highway 775,traffic
+what time is it 776,date_time
+switch on the fan 777,smart_home
+set a 1 hour timer 778,set_timer
+what is your name 779,personality
+turn off the tv 780,smart_home
+dim the lights 781,smart_home
+let's play a game 782,games_trivia
+what is cat in italian 783,translation
+set a 1 hour timer 784,set_timer
+what's on my to do list 785,todo_task
+what is cat in italian 786,translation
+go to github 787,open_website
+remind me to buy milk 788,reminder
+next podcast episode 789,podcast_audiobook
+do you have feelings 790,personality
+directions home 791,directions
+turn on the lights 792,smart_home
+do you have feelings 793,personality
+check my calendar 794,calendar
+is there traffic 795,traffic
+directions to the airport 796,directions
+how tall is mount everest 797,general_qa
+shopping list 798,shopping_list
+tell me the news 799,news
+go to github 800,open_website
+i'm home 801,routine
+spell necessary 802,dictionary
+good night 803,routine
+play a true crime podcast 804,podcast_audiobook
+tell me a fact 805,facts
+good night 806,routine
+play a true crime podcast 807,podcast_audiobook
+who are you 808,personality
+read my audiobook 809,podcast_audiobook
+resume my audiobook 810,podcast_audiobook
+take me to the mall 811,directions
+set a timer for 10 minutes 812,set_timer
+add a reminder 813,reminder
+directions home 814,directions
+wake me up 815,alarm
+what is 20 minus 6 816,calculator
+latest headlines 817,news
+play trivia 818,games_trivia
+make me laugh 819,jokes_fun
+what is today's date 820,date_time
+remind me to buy milk 821,reminder
+say something funny 822,jokes_fun
+what is cat in italian 823,translation
+how's the traffic 824,traffic
+turn on the lights 825,smart_home
+directions home 826,directions
+go to github 827,open_website
+convert 2 liters to gallons 828,unit_conversion
+switch on the fan 829,smart_home
+good night 830,routine
+alarm for tomorrow morning 831,alarm
+movie suggestions 832,movies
+open youtube 833,open_website
+give me a fun fact 834,facts
+open reddit 835,open_website
+tell me something interesting 836,facts
+set an alarm 837,alarm
+say something funny 838,jokes_fun
+what's the news 839,news
+timer for 5 minutes 840,set_timer
+route to the hospital 841,directions
+give me a quiz 842,games_trivia
+make me laugh 843,jokes_fun
+good night 844,routine
+turn on the lights 845,smart_home
+show my tasks 846,todo_task
+new to do 847,todo_task
+sports news 848,news
+weather in london 849,weather
+recommend a movie 850,movies
+mark task as done 851,todo_task
+show my tasks 852,todo_task
+did you know 853,facts
+new to do 854,todo_task
+will it rain tomorrow 855,weather
+what's the news 856,news
+set alarm for 6 am 857,alarm
+play rock music 858,play_music
+set an alarm for 8 30 859,alarm
+when was einstein born 860,general_qa
+turn on the lights 861,smart_home
+traffic on the highway 862,traffic
+add milk to my shopping list 863,shopping_list
+trivia question 864,games_trivia
+directions home 865,directions
+add 7 and 9 866,calculator
+play some jazz 867,play_music
+how many feet in a meter 868,unit_conversion
+what is today's date 869,date_time
+play the latest episode 870,podcast_audiobook
+recommend a movie 871,movies
+play music 872,play_music
+play rock music 873,play_music
+what's on my calendar 874,calendar
+play a song 875,play_music
+how do you say thank you in french 876,translation
+how's the traffic 877,traffic
+how many feet in a meter 878,unit_conversion
+add bread to the list 879,shopping_list
+do you have feelings 880,personality
+play a true crime podcast 881,podcast_audiobook
+put eggs on the shopping list 882,shopping_list
+good morning 883,routine
+set a reminder 884,reminder
+are the lights on 885,device_status
+start a timer 886,set_timer
+show my tasks 887,todo_task
+directions home 888,directions
+device status 889,device_status
+show my tasks 890,todo_task
+timer for 5 minutes 891,set_timer
+turn on the lights 892,smart_home
+how many grams in an ounce 893,unit_conversion
+start a game 894,games_trivia
+what's on my calendar 895,calendar
+what day is it today 896,date_time
+play a podcast 897,podcast_audiobook
+add a reminder 898,reminder
+what's on my shopping list 899,shopping_list
+top stories 900,news
+play jazz radio 901,play_radio
+what's on my shopping list 902,shopping_list
+play rock music 903,play_music
+current time please 904,date_time
+news today 905,news
+set alarm for 6 am 906,alarm
+weather today 907,weather
+who is the president of france 908,general_qa
+turn on the lights 909,smart_home
+current time please 910,date_time
+who are you 911,personality
+what's 100 divided by 5 912,calculator
+i'm home 913,routine
+top movies 914,movies
+how long is my commute 915,traffic
+read my audiobook 916,podcast_audiobook
+add a reminder 917,reminder
+countdown 30 seconds 918,set_timer
+open google 919,open_website
+open reddit 920,open_website
+translate good morning to german 921,translation
+lights on in the kitchen 922,smart_home
+tell a funny joke 923,jokes_fun
+set an alarm for 8 30 924,alarm
+who invented the telephone 925,general_qa
+know any jokes 926,jokes_fun
+what is cat in italian 927,translation
+how's the traffic 928,traffic
+set a reminder 929,reminder
+let's play a game 930,games_trivia
+play radio station 931,play_radio
+are the lights on 932,device_status
+tell me something interesting 933,facts
+when was einstein born 934,general_qa
+what is today's date 935,date_time
+what did i tell you 936,memory
+popular films 937,movies
+what is cat in italian 938,translation
+turn off the tv 939,smart_home
+what time is it 940,date_time
+say something funny 941,jokes_fun
+play the radio 942,play_radio
+convert 2 liters to gallons 943,unit_conversion
+what's 100 divided by 5 944,calculator
+set a timer for 10 minutes 945,set_timer
+what is 5 plus 3 946,calculator
+let's play a game 947,games_trivia
+play jazz radio 948,play_radio
+is there traffic 949,traffic
+translate this 950,translation
+what is 20 minus 6 951,calculator
+route to the hospital 952,directions
+wake me at 7 953,alarm
+add 7 and 9 954,calculator
+play music 955,play_music
+latest headlines 956,news
+wake me at 7 957,alarm
+what is the capital of japan 958,general_qa
+what's the date 959,date_time
+play my playlist 960,play_music
+add a reminder 961,reminder
+multiply 3 by 8 962,calculator
+open my email 963,open_website
+what is cat in italian 964,translation
+how far is the moon 965,general_qa
+set an alarm 966,alarm
+give me a fun fact 967,facts
+translate good morning to german 968,translation
+play the radio 969,play_radio
+let's play a game 970,games_trivia
+take me to the mall 971,directions
+spell necessary 972,dictionary
+play radio station 973,play_radio
+start the radio 974,play_radio
+how long is my commute 975,traffic
+listen to fm radio 976,play_radio
+top movies 977,movies
+add bread to the list 978,shopping_list
+ask me a riddle 979,games_trivia
+directions home 980,directions
+reminder for the meeting 981,reminder
+remind me to call mom 982,reminder
+play trivia 983,games_trivia
+wake me up 984,alarm
+define serendipity 985,dictionary
+what is 5 plus 3 986,calculator
+show my tasks 987,todo_task
+how far is the moon 988,general_qa
+share a fact 989,facts
+good morning 990,routine
+give me a quiz 991,games_trivia
+timer for 5 minutes 992,set_timer
+is the heater running 993,device_status
+play a podcast 994,podcast_audiobook
+tell me a joke 995,jokes_fun
+play some jazz 996,play_music
+what day is it today 997,date_time
+translate this 998,translation
+will it rain tomorrow 999,weather
+put eggs on the shopping list 1000,shopping_list
+convert 100 fahrenheit to celsius 1001,unit_conversion
+let's play a game 1002,games_trivia
+open google 1003,open_website
+top stories 1004,news
+remind me to buy milk 1005,reminder
+traffic report 1006,traffic
+set a timer for 10 minutes 1007,set_timer
+sports news 1008,news
+switch on the fan 1009,smart_home
+play the radio 1010,play_radio
+is it cold outside 1011,weather
+start the radio 1012,play_radio
+open my email 1013,open_website
+what does ephemeral mean 1014,dictionary
+how's the traffic 1015,traffic
+set alarm for 6 am 1016,alarm
+tell me a fact 1017,facts
+recommend a movie 1018,movies
+tell me the news 1019,news
+what is the capital of japan 1020,general_qa
+play rock music 1021,play_music
+open my email 1022,open_website
+what is 5 plus 3 1023,calculator
+spell necessary 1024,dictionary
+translate good morning to german 1025,translation
+directions home 1026,directions
+play a true crime podcast 1027,podcast_audiobook
+convert 100 fahrenheit to celsius 1028,unit_conversion
+convert 2 liters to gallons 1029,unit_conversion
+take me to the mall 1030,directions
+recommend a movie 1031,movies
+weather in london 1032,weather
+translate good morning to german 1033,translation
+tell me a joke 1034,jokes_fun
+directions home 1035,directions
+what's the date 1036,date_time
+how tall is mount everest 1037,general_qa
+give me a fun fact 1038,facts
+countdown 30 seconds 1039,set_timer
+navigate to downtown 1040,directions
+what is 5 plus 3 1041,calculator
+add a reminder 1042,reminder
+tune in to bbc radio 1043,play_radio
+how do you say thank you in french 1044,translation
+wake me up 1045,alarm
+tell me a fact 1046,facts
+start a game 1047,games_trivia
+do you have feelings 1048,personality
+traffic to work 1049,traffic
+remind me to call mom 1050,reminder
+popular films 1051,movies
+play radio station 1052,play_radio
+play the beatles 1053,play_music
+what day is it today 1054,date_time
+what's the weather 1055,weather
+popular films 1056,movies
+how are you 1057,personality
+movie suggestions 1058,movies
+add a reminder 1059,reminder
+take me to the mall 1060,directions
+how many grams in an ounce 1061,unit_conversion
+will it rain tomorrow 1062,weather
+navigate to downtown 1063,directions
+do i have meetings today 1064,calendar
+add milk to my shopping list 1065,shopping_list
+convert 5 km to miles 1066,unit_conversion
+morning alarm 1067,alarm
+who are you 1068,personality
+what do you remember about me 1069,memory
+latest headlines 1070,news
+timer for 20 minutes 1071,set_timer
+play trivia 1072,games_trivia
+is it cold outside 1073,weather
+take me to the mall 1074,directions
+wake me up 1075,alarm
+movie suggestions 1076,movies
+open youtube 1077,open_website
+open reddit 1078,open_website
+add homework to my to do list 1079,todo_task
+convert 5 km to miles 1080,unit_conversion
+lights on in the kitchen 1081,smart_home
+who made you 1082,personality
+weather today 1083,weather
+what is your name 1084,personality
+synonym for happy 1085,dictionary
+turn off the heater 1086,smart_home
+tune in to bbc radio 1087,play_radio
+next podcast episode 1088,podcast_audiobook
+do you have feelings 1089,personality
+how do i get to the station 1090,directions
+top movies 1091,movies
+is there traffic 1092,traffic
+tell me the news 1093,news
+how tall is mount everest 1094,general_qa
+any events tomorrow 1095,calendar
+i'm leaving 1096,routine
+add milk to my shopping list 1097,shopping_list
+what day is it today 1098,date_time
+turn off the heater 1099,smart_home
+tell me a joke 1100,jokes_fun
+timer for 20 minutes 1101,set_timer
+did you know 1102,facts
+define serendipity 1103,dictionary
+what's the news 1104,news
+status of my devices 1105,device_status
+is the heater running 1106,device_status
+route to the hospital 1107,directions
+dim the lights 1108,smart_home
+will it rain tomorrow 1109,weather
+say goodbye in japanese 1110,translation
+set a timer for 10 minutes 1111,set_timer
+what is my agenda 1112,calendar
+lights on in the kitchen 1113,smart_home
+what is cat in italian 1114,translation
+add homework to my to do list 1115,todo_task
+morning alarm 1116,alarm
+what's the date 1117,date_time
+play the beatles 1118,play_music
+what is my agenda 1119,calendar
+what's the news 1120,news
+next podcast episode 1121,podcast_audiobook
+traffic report 1122,traffic
+top stories 1123,news
+good night 1124,routine
+convert 2 liters to gallons 1125,unit_conversion
+play music 1126,play_music
+play the beatles 1127,play_music
+latest headlines 1128,news
+say something funny 1129,jokes_fun

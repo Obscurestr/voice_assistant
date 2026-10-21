@@ -1,0 +1,96 @@
+{
+  "dataset": {
+    "rows": 5700,
+    "unique_raw_prompts": 5700,
+    "row_ids_stripped": 0,
+    "unique_clean_prompts": 5700,
+    "conflicting_prompts": [],
+    "class_counts": {
+      "alarm": 200,
+      "calculator": 200,
+      "calendar": 200,
+      "date_time": 200,
+      "device_status": 200,
+      "dictionary": 200,
+      "directions": 200,
+      "facts": 200,
+      "games_trivia": 200,
+      "general_qa": 200,
+      "jokes_fun": 200,
+      "memory": 100,
+      "movies": 200,
+      "news": 200,
+      "open_website": 200,
+      "personality": 200,
+      "play_music": 200,
+      "play_radio": 200,
+      "podcast_audiobook": 200,
+      "reminder": 200,
+      "routine": 200,
+      "set_timer": 200,
+      "shopping_list": 200,
+      "smart_home": 200,
+      "todo_task": 200,
+      "traffic": 200,
+      "translation": 200,
+      "unit_conversion": 200,
+      "weather": 200
+    },
+    "duplicate_rate": 0.0
+  },
+  "naive_split_accuracy": 0.9991228070175439,
+  "model_comparison": [
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9998245614035088,
+      "accuracy_std": 0.0003508771929824572,
+      "macro_f1": 0.9998275592630315,
+      "macro_f1_std": 0.00034488147393716415,
+      "fit_seconds": 0.8641959667205811
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9996491228070175,
+      "accuracy_std": 0.0007017543859649145,
+      "macro_f1": 0.9996549567617692,
+      "macro_f1_std": 0.0006900864764615821,
+      "fit_seconds": 1.7291639804840089
+    },
+    {
+      "model": "MLP",
+      "accuracy": 0.998421052631579,
+      "accuracy_std": 0.0010229740166395297,
+      "macro_f1": 0.9984477098386954,
+      "macro_f1_std": 0.001005687897717477,
+      "fit_seconds": 18.35053744316101
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9971929824561403,
+      "accuracy_std": 0.0017891296538922108,
+      "macro_f1": 0.9972401388808091,
+      "macro_f1_std": 0.0017595892539055374,
+      "fit_seconds": 8.928768873214722
+    },
+    {
+      "model": "Naive Bayes (baseline)",
+      "accuracy": 0.9966666666666667,
+      "accuracy_std": 0.00170094030084784,
+      "macro_f1": 0.9967253289297819,
+      "macro_f1_std": 0.0016690209742029987,
+      "fit_seconds": 0.06456975936889649
+    }
+  ],
+  "clean_split": {
+    "accuracy": 0.9991228070175439,
+    "macro_f1": 0.9991377963151571,
+    "n_test": 1140
+  },
+  "heldout": {
+    "n": 90,
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9412151067323481,
+    "coverage_at_threshold": 0.9888888888888889,
+    "accuracy_when_confident": 0.9550561797752809
+  }
+}
