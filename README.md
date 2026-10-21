@@ -1,4 +1,4 @@
-[README (2).md](https://github.com/user-attachments/files/33766400/README.2.md)
+ 
 # Offline Voice Assistant
 
 A voice assistant that runs entirely on your machine: OpenAI Whisper turns speech into
