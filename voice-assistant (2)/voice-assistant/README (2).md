@@ -1,0 +1,191 @@
+# Offline Voice Assistant
+
+A voice assistant that runs entirely on your machine: OpenAI Whisper turns speech into
+text, a scikit-learn classifier decides which of 29 intents the user means, rule-based
+extractors pull out times, durations, places and numbers, and a skill system carries out
+the request (timers, alarms, lists, unit conversion, live weather and more).
+
+The most interesting part of the project is not the assistant itself but the
+**evaluation**: the original dataset reported 100% accuracy for every model tested. That
+number turned out to come from data leakage, and this repository shows how it was found,
+fixed and measured honestly.
+
+```text
+$ va chat
+> my name is Sara
+Nice to meet you, Sara. I'll remember that.
+> set a timer for ten minutes
+Timer set for 10 minutes.
+> wake me up at 7:30 am
+Alarm set for 7:30 AM.
+> add milk, eggs and bread to my shopping list
+Added milk, eggs and bread to your shopping list.
+> save my shopping list as a word document
+I saved your shopping list with 3 items as a Word document and opened it.
+> convert 5 km to miles
+5 km is 3.107 miles.
+> turn on the lights in the kitchen
+Turned on the lights in the kitchen.
+> what's the weather in Belgrade
+It's 18 degrees Celsius with partly cloudy in Belgrade.
+> asdf qwer
+Sorry, I'm not sure what you meant. Did you want help with weather?
+```
+
+## How it works
+
+```mermaid
+flowchart LR
+    A["Microphone"] -->|"16 kHz audio"| B["Silence check"]
+    B --> C["Whisper speech-to-text"]
+    C --> D{"Fact rule?<br/>e.g. my name is ..."}
+    D -->|"yes"| M[("Memory JSON")]
+    D -->|"no"| E["Intent classifier<br/>word + char TF-IDF<br/>Logistic Regression"]
+    E -->|"low confidence"| F["Ask to clarify"]
+    E -->|"confident"| G["Entity extraction<br/>time, duration, place, number"]
+    G --> H["Skill registry<br/>29 handlers"]
+    H <--> M
+    H --> W["Word export<br/>shopping list .docx"]
+    H --> I["Text-to-speech"]
+```
+
+| Module | Responsibility |
+|---|---|
+| `data.py` | Load the CSV, strip row-id suffixes, remove duplicates and label conflicts, leak-free split |
+| `nlu.py` | Classifier pipeline, candidate models, confidence threshold, versioned save/load |
+| `entities.py` | Parsing of clock times, durations, arithmetic, unit conversions, places, list items, websites |
+| `skills.py` | One handler per intent, registered with `@skill(...)`; side effects go through an injectable `SkillContext` |
+| `assistant.py` | One turn: rules → classifier → threshold → skill, with error isolation |
+| `memory.py` | Persistent user memory with atomic writes |
+| `documents.py` | Exports the shopping list as a printable Word checklist (python-docx) and opens it |
+| `audio.py` | Microphone, Whisper and TTS, lazily imported so text mode needs none of them |
+| `evaluate.py` | Dataset audit, model comparison, reports and confusion matrices |
+
+## The leakage problem
+
+Every prompt in the original dataset ends with its row number:
+
+```text
+wake me up 0       alarm
+morning alarm 1    alarm
+set an alarm 2     alarm
+set an alarm 3     alarm
+```
+
+The numbers make duplicates look unique. A random 80/20 split then places `set an alarm 2`
+in training and `set an alarm 3` in the test set, so the model is tested on sentences it
+has already memorised. All five models scored 100%, which says nothing about how they
+handle a new sentence.
+
+The fix (`data.load_dataset`):
+
+1. Strip a trailing number **only when it equals the row's position**, so real numbers
+   such as `set a timer for 5` survive.
+2. Normalise text the way Whisper output will look (lowercase, no punctuation).
+3. Drop exact duplicates and any sentence labelled with two different intents.
+4. Split the de-duplicated data with stratification, and assert there is no overlap.
+
+Evaluation then reports three numbers, from least to most trustworthy:
+
+| Protocol | What it measures |
+|---|---|
+| Naive split (original) | Memorisation. Kept to show the size of the leak. |
+| Clean split + stratified k-fold CV | Generalisation to unseen sentences from the same distribution. |
+| Hand-written held-out set | Generalisation to new phrasing, closest to real use. |
+
+### Results on the rebuilt dataset
+
+The original data was replaced with a generated dataset of 5,700 unique commands
+(see [`data/README.md`](data/README.md)): varied phrasings, slot values and spoken
+fillers, no row numbers, no duplicates.
+
+| Protocol | Accuracy |
+|---|---|
+| Clean split, 5-fold CV (Logistic Regression) | 99.9% |
+| **Hand-written held-out commands (90, never seen)** | **94.4%** |
+
+The near-perfect cross-validation is still optimistic, because train and test share
+templates. The held-out figure is the one to trust. Its five errors are informative:
+"How's it going?" is confidently read as weather, and "Is the road to the office busy?"
+as a directions request.
+
+Full results, per-intent scores and confusion matrices are generated in
+[`reports/results.md`](reports/results.md) by `va evaluate`.
+
+## Design decisions
+
+- **Word + character n-grams.** Word bigrams capture meaning ("set timer"); character
+  n-grams tolerate transcription slips ("wether", "alarms").
+- **Logistic Regression over the MLP from the notebook.** On de-duplicated data it matches
+  or beats the MLP, trains in a fraction of a second, and outputs probabilities the
+  confidence threshold relies on. Linear SVM can score similarly but has no probabilities.
+- **Confidence threshold.** Below it, the assistant asks instead of acting. Opening the
+  wrong website is worse than asking a question. `reports/results.md` shows the
+  coverage-vs-accuracy trade-off at the chosen value.
+- **Rules before ML for facts.** "My name is …" is unambiguous and rare in the data, so a
+  regex handles it deterministically.
+- **Testable side effects.** Skills never call the browser, network, clock or threads
+  directly; tests inject fakes, so all 45 tests run offline in under a second.
+- **No FFmpeg.** Audio is passed to Whisper as an in-memory array, which removes the
+  FFmpeg download and PATH setup the notebook needed.
+- **Graceful degradation.** Weather uses the free Open-Meteo API and falls back to a web
+  search when offline; a failing skill returns an apology instead of crashing the loop.
+
+## Getting started
+
+```bash
+git clone <this repo> && cd voice-assistant
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e ".[dev]"            # text mode, training and tests
+pip install -e ".[voice]"          # add Whisper, microphone and speech output
+
+va evaluate                        # audit data, compare models, write reports/
+va train                           # fit the final model -> models/intent_model.joblib
+va chat --debug                    # type commands, see intent + confidence
+va listen                          # voice mode
+```
+
+Useful extras: `va predict "wake me at 6"` prints the top-3 intents with probabilities;
+`va devices` lists microphones (set `VA_INPUT_DEVICE` to pick one).
+Word documents are saved to `Documents\Voice Assistant` (change with `VA_DOCUMENTS`). All settings are in
+`config.py` and can be overridden with `VA_*` environment variables.
+
+```bash
+pytest          # 45 tests
+ruff check .    # lint
+```
+
+## Bugs fixed from the original notebook
+
+| Notebook | Effect | Now |
+|---|---|---|
+| `if "youtube" in cleaned or "you tube":` | Always true: every "open website" request opened YouTube | `extract_website` matches known sites and spoken domains |
+| `location` never defined in `directions` | `NameError` on any directions request | Destination parsed from the sentence, asks if missing |
+| Alarm regex had unbalanced parentheses | Crashed on every alarm | `parse_time` handles `7 pm`, `7:30 am`, `19:15`, `noon` |
+| `speech_to_text` ignored its argument | Always read a hard-coded Windows path | Audio passed as an array, no files |
+| `sd.default_device = (14, 12)` | Silently did nothing (`sd.default.device` is correct) | `VA_INPUT_DEVICE` setting |
+| `"volumn"` property | Volume never set | Fixed |
+| Calculator fell through | Returned `None`, which TTS tried to speak | Clear message; division by zero handled |
+| Timers, reminders, smart home | Fixed strings, nothing happened | Real timers, stored reminders and alarms, device state |
+
+## Limitations and next steps
+
+- Push-to-talk with a fixed 5-second window. A wake word (openWakeWord) and voice
+  activity detection would remove the Enter key and the fixed duration.
+- Entity extraction is rule-based. A sequence tagger (e.g. a small spaCy NER model) would
+  handle phrasing the rules miss; `reports/heldout_errors.csv` lists current failures.
+- Single-intent only: "set a timer and play music" picks one.
+- Smart-home control is a simulated device registry; the skill interface is ready for a
+  Home Assistant or MQTT backend.
+- `faster-whisper` would cut transcription latency several times on CPU.
+
+## Project structure
+
+```text
+src/voice_assistant/   package (see table above)
+tests/                 pytest suite with fake browser, clock, network and scheduler
+data/                  training set, held-out test set, leakage test sample
+scripts/               dataset generators
+notebooks/             original exploratory notebook, kept for reference
+reports/               generated by `va evaluate`
+```
